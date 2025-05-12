@@ -10,12 +10,6 @@ from scipy.interpolate import interp1d
 from scipy.stats import chi2
 
 
-#
-#from .features.irregular_autoregressive import IAR_phi, CIAR_phiR_beta
-#from .features.structure_function import SF_ML_amplitude, SF_ML_gamma
-#from .features.conditional_autoregressive import CAR_mean, CAR_sigma, CAR_tau
-
-
 def Amplitude(mag):
     
         n = len(mag)
